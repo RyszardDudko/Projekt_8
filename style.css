@@ -1,0 +1,78 @@
+body {
+	background-color: #d9d9d9;	
+}
+
+social {
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+	padding: 50px;
+}
+
+h2 {
+	color: #505050;
+	font-size: 40px;
+}
+
+.icon-btn {
+	width: 75px;
+	height: 75px;
+	border: 0;
+	border-radius: 50%;
+	margin: 5px;
+	cursor: pointer;
+	font-size: 40px;
+	height: 75px;
+}
+
+.twitter {
+	color: #4099FF;	
+}
+
+.facebook {
+	color: #3B5998;	
+}
+
+.google-plus {
+	color: #DB5A3C;	
+}
+
+.instagram {
+	color: #5C3D2E;	
+}
+
+.github {
+	color: #4183C4;	
+}
+
+.icon-btn:hover {
+	transform: scale(1.10);	/* IE 10, Fx 16+, Op 12.1+ */
+	-webkit-transform: scale(1.10); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+    -ms-transform: scale(1.10); /* IE 9 */
+    -webkit-backface-visibility: hidden;
+}
+
+.twitter:hover {
+	color: #FFFFFF;	
+	background-color: #4099FF;
+}
+
+.facebook:hover {
+	color: #FFFFFF;	
+	background-color: #3B5998;
+}
+
+.google-plus:hover {
+	color: #FFFFFF;	
+	background-color: #DB5A3C;
+}
+
+.instagram:hover {
+	color: #FFFFFF;	
+	background-color: #5C3D2E;
+}
+
+.github:hover {
+	color: #FFFFFF;	
+	background-color: #4183C4;
+}
